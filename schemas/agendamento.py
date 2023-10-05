@@ -11,7 +11,7 @@ class AgendamentoSchema(BaseModel):
     codigo: int
     nome: str
     telefone: str
-    categoria: int
+    categoria: str
     especialidade: Optional[str]
     c_data: Optional[str]
     c_hora: Optional[str]
@@ -22,7 +22,7 @@ class AgendamentoUpdateSchema(BaseModel):
     
     nome: str
     telefone: str
-    categoria: int
+    categoria: str
     especialidade: Optional[str]
     c_data: Optional[str]
     c_hora: Optional[str]
@@ -86,10 +86,10 @@ class AgendamentoViewSchema(BaseModel):
     """ Define como um agendamento será retornado.
     """
     codigo: int = 1
-    nome: str = "Eduardo Cruz"
-    telefone: str = "21 2222-3333"
-    categoria: int = "Retorno"
-    especialidade: Optional[str] = "Cardiologista"
+    nome: str = "Eduardo Cesar"
+    telefone: str = "(DD) NNNN-NNNN"
+    categoria: str = "Retorno"
+    especialidade: Optional[str] = "Pediatra"
     c_data: Optional[str] = "dd/mm/aaaa"
-    c_hora: Optional[str] = "mm:hh"
+    c_hora: Optional[str] = "MM:HH"
     data_insercao: Optional[datetime] = datetime.today()

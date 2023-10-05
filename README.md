@@ -1,5 +1,5 @@
 # Sobre o projeto
-Esse projeto auxilia na marcação de consultas, ele busca a informação de quais especialidas tem cadastradas no banco de dados para agendar a consulta
+Essa API é o home de consultas, onde é possivel marcar consultas pegando informações dos médicos cadastrados.
 
 ## Como executar em modo desenvolvimento
 

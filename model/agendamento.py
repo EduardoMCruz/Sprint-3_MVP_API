@@ -26,17 +26,17 @@ class Agendamento(Base):
             codigo: 
             nome: 
             telefone: 
-            categoria:
+            categoria: 
             especialidade: 
             c_data: 
             c_hora: 
-            data_insercao: 
+            data_insercao: data de quando o agendamento foi inserido na base
         """
         self.codigo = codigo
         self.nome = nome
         self.telefone = telefone
         self.categoria = categoria
-        self.especialidade=especialidade
+        self.especialidade = especialidade
         self.c_data = c_data
         self.c_hora = c_hora
 
